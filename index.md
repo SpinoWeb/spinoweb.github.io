@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "My Home"
-  text: "A VitePress Site"
+  text: "A Personal Site"
   tagline: My home tagline
   actions:
     - theme: brand
@@ -20,5 +20,11 @@ features:
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature D
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature E
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature F
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
