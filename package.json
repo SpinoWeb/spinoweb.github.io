@@ -1,8 +1,5 @@
 {
-  "dependencies": {
-    "bundler": "^0.8.0",
-    "jekyll": "^3.0.0-beta1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "vitepress": "^1.4.2"
   },
