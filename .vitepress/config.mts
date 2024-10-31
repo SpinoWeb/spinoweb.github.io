@@ -13,6 +13,7 @@ export default defineConfig({
 
     sidebar: [
       {
+        collapsed: true,
         text: "Examples 01",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
@@ -20,6 +21,7 @@ export default defineConfig({
         ],
       },
       {
+        collapsed: true,
         text: "Examples 02",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
