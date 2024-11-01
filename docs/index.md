@@ -4,19 +4,18 @@ layout: home
 hero:
   #name: VitePress
   #text: Starter Template
-  tagline: My Home
+  #tagline: spinoweb.github.io
   actions:
     - theme: brand
       text: Notes
       link: /blog/
     - theme: alt
-      text: Guide
-      link: /guide/
-    - theme: alt
-      text: Configs
-      link: /config/
+      text: Research
+      link: /research
 
 features:
-  - title: "VitePress: Designed to be simplicity first"
+  - title: "Notes"
+    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
+  - title: "Research"
     details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
 ---

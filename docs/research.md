@@ -1,12 +1,3 @@
----
-title: Research
-author: Nino Spinella
-date: 2024-10-31
-category: Article
----
-
-<PostDetail>
-
 ## Research fields
 
 - Shear behavior of lightly transverse reinforced beams, high performance concrete, fiber-reinforced concrete,and nonlinear analysis of reinforced concrete structures
@@ -188,5 +179,3 @@ _M.D._
 28. "Il legno tra tradizione e innovazione: concezione tecnologica e strutturale di una trave curva in lamellare verticale" A.A. 2009/10 Ing. Milena Raffa
 29. "Strutture prefabbricate di grande luce" A.A. 2008/09 Ing. Santino Stagno
 30. "Recenti sviluppi nella precompressione per grandi strutture" A.A. 2008/09  Ing. Carmelo Genitori
-
-</PostDetail>

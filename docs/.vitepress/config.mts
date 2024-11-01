@@ -1,6 +1,6 @@
 import Unocss from "unocss/vite";
 import { defineConfig } from "vitepress";
-import { version } from "../../package.json";
+//import { version } from "../../package.json";
 
 export default defineConfig({
   base: "/",
@@ -27,7 +27,7 @@ export default defineConfig({
       "/config/": sidebarConfig(),
     },
   },
-  title: "My Home",
+  title: "Home",
   vite: {
     plugins: [
       Unocss({
@@ -40,8 +40,9 @@ export default defineConfig({
 function nav() {
   return [
     { text: "Notes", link: "/blog/", activeMatch: "/blog/" },
-    { text: "Guide", link: "/guide/", activeMatch: "/guide/" },
-    { text: "Configs", link: "/config/", activeMatch: "/config/" },
+    { text: "Research", link: "/Research.md", activeMatch: "/Research" },
+    //{ text: "Guide", link: "/guide/", activeMatch: "/guide/" },
+    //{ text: "Configs", link: "/config/", activeMatch: "/config/" },
     {
       text: "External Docs",
       items: [
