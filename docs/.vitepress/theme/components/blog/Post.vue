@@ -2,7 +2,7 @@
 import { useData } from "vitepress";
 import type { Post } from "../../composables/posts.data";
 import useAuthors from "../../composables/useAuthors";
-import PostIcon from "./PostIcon.vue";
+//import PostIcon from "./PostIcon.vue";
 import PostAuthor from "./PostAuthor.vue";
 
 const props = defineProps<{

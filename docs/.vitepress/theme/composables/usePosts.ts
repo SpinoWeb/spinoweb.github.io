@@ -7,9 +7,7 @@ import { data } from "./posts.data";
 export default () => {
   const { site } = useData();
 
-  const allPosts: Ref<Post[]> = ref(
-    data.sort((a, b) => b.date.time - a.date.time) // reverse order by time
-  );
+  const allPosts: Ref<Post[]> = ref(data);
   //console.log("usePosts > allPosts", allPosts);
 
   const route = useRoute();
