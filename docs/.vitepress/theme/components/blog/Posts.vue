@@ -8,9 +8,9 @@ const { theme } = useData();
 </script>
 
 <template>
-  <div class="mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-    <div class="p-2 grid gap-6 lg:grid-cols-1">
-      <div v-for="post of posts">
+  <div class="mx-auto max-w-screen-xl lg:py-0 lg:px-16">
+    <div class="p-2 grid gap-3 lg:grid-cols-2">
+      <div v-for="post of posts" class="m-0 p-0 content-center">
         <Post :post="post" />
       </div>
     </div>

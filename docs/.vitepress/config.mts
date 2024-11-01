@@ -39,9 +39,9 @@ export default defineConfig({
 
 function nav() {
   return [
+    { text: "Notes", link: "/blog/", activeMatch: "/blog/" },
     { text: "Guide", link: "/guide/", activeMatch: "/guide/" },
     { text: "Configs", link: "/config/", activeMatch: "/config/" },
-    { text: "Blog", link: "/blog/", activeMatch: "/blog/" },
     {
       text: "External Docs",
       items: [

@@ -1,25 +1,30 @@
-import type { Ref } from 'vue'
-import { computed, ref } from 'vue'
-import { useData, useRoute } from 'vitepress'
-import type { Post } from './posts.data'
-import { data } from './posts.data'
+import type { Ref } from "vue";
+import { computed, ref } from "vue";
+import { useData, useRoute } from "vitepress";
+import type { Post } from "./posts.data";
+import { data } from "./posts.data";
 
 export default () => {
-  const { site } = useData()
+  const { site } = useData();
 
-  const allPosts: Ref<Post[]> = ref(data)
+  const allPosts: Ref<Post[]> = ref(
+    data.sort((a, b) => b.date.time - a.date.time) // reverse order by time
+  );
+  //console.log("usePosts > allPosts", allPosts);
 
-  const route = useRoute()
+  const route = useRoute();
 
-  const path = route.path
+  const path = route.path;
 
   function findCurrentIndex() {
-    return allPosts.value.findIndex(p => `${site.value.base}blog${p.href}` === route.path)
+    return allPosts.value.findIndex(
+      (p) => `${site.value.base}blog${p.href}` === route.path
+    );
   }
 
-  const currentPost = computed(() => allPosts.value[findCurrentIndex()])
-  const nextPost = computed(() => allPosts.value[findCurrentIndex() - 1])
-  const prevPost = computed(() => allPosts.value[findCurrentIndex() + 1])
+  const currentPost = computed(() => allPosts.value[findCurrentIndex()]);
+  const nextPost = computed(() => allPosts.value[findCurrentIndex() - 1]);
+  const prevPost = computed(() => allPosts.value[findCurrentIndex() + 1]);
 
-  return { allPosts, currentPost, nextPost, prevPost, path }
-}
+  return { allPosts, currentPost, nextPost, prevPost, path };
+};
