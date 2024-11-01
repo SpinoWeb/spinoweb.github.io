@@ -11,9 +11,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    footer: {
-      message: "My home",
-    },
+    //footer: {message: "My home"},
     search: {
       provider: "local",
     },
