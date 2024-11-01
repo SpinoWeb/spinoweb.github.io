@@ -21,7 +21,7 @@ const author = findByName(props.post.author);
     <!-- <p class="mb-5 font-light" v-html="post.excerpt" /> -->
     <div class="flex">
       <strong>{{ post.date.string }}</strong
-      ><i>&nbsp;{{ author ? "by" : "" }}&nbsp;</i
+      ><i>&nbsp;{{ author ? "by" : "&nbsp;" }}&nbsp;</i
       ><PostAuthor :author="author" />
     </div>
   </div>
