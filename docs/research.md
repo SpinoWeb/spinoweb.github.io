@@ -29,7 +29,6 @@
 _Published and in press_
 
 1.  Rossi P. P., **Spinella N.**, "[Protocol of Investigations for the Preliminary Assessment of the Structural Safety of Highway Overpasses](https://doi.org/10.1016/j.istruc.2024.107609)". Structures, 70, 107609, Dec. 2024
-1.  Rossi P. P., **Spinella N.**, "[Protocol of Investigations for the Preliminary Assessment of the Structural Safety of Highway Overpasses](https://doi.org/10.1016/j.istruc.2024.107609)". Structures, 70, 107609, Dec. 2024
 1.  Floridia A., Messina D., Panarelli D., Recupero A., Rossi P. P., **Spinella N.**, "[Experimental Application of the Italian Bridges Guidelines to a Stock of Prestressed Concrete Bridges](https://doi.org/10.3390/infrastructures9110196)". Infrastructures, 9, 196, Dec. 2024
 1.  Rossi P. P., **Spinella N.**, Recupero A., "[Experimental Application of the Italian Guidelines for the Risk Classification and Management and for the Safety Evaluation of Existing Bridges](https://doi.org/10.1016/j.istruc.2023.105387)". Structures, 58, 105387, Dec. 2023
 1.  Rossi P. P., **Spinella N.**, "[Prediction of the Monotonic Load-Displacement Curve of Slender RC Beams with Corroded Transverse and Longitudinal Reinforcements](https://doi.org/10.1002/SUCO.202201040)". Structural Concrete, 24(5), pp. 6170-6191, Oct. 2023
